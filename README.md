@@ -23,4 +23,4 @@ In these projects we will go through some cool features of Data Science. Like,
    - Consumes pickle files.
    - This server expose HTTP endpoints for various requests And UI made by HTML, CSS, JS will make
      HTTP get and post calls.
-2)
+2) Data Cleaning Process.
