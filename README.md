@@ -8,6 +8,7 @@ This repository contains simple Machine Learning and Data Science Projects.
 - Python Flask for Backend server.
 - HTML, CSS, JS for UI.
 - Kaggle for Datasets
+- Supervised Machine Learning.
 
 ## Features:
 In these projects we will go through some cool features of Data Science. Like,
