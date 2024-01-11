@@ -25,3 +25,4 @@ In these projects we will go through some cool features of Data Science. Like,
      HTTP get and post calls.
 2) Data Cleaning Process.
 3) Feature Engineering.
+4) Creating JSON File.
