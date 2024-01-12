@@ -18,7 +18,7 @@ In these projects we will go through some cool features of Data Science. Like,
 4) Outlier Detection.
 5) Dimensionality Reduction.
 
-## New concepts exlopred:
+## New concepts learned:
 1) What is Python Flask Server.
    - Consumes pickle files.
    - This server expose HTTP endpoints for various requests And UI made by HTML, CSS, JS will make
@@ -28,3 +28,4 @@ In these projects we will go through some cool features of Data Science. Like,
 4) Creating JSON File.
 5) Python Flask
 6) HTTP GET and HTTP POST
+7) API Testing.
