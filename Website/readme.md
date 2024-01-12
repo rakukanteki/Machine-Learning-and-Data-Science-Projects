@@ -24,8 +24,8 @@ It provied essential components for web development, routing, requests made by t
   ```
   if __name__ == "__main__":
     statements..
-    app.run()
-    # app.run() is a method that starts the development server,
+    object_name.run()
+    # object_name.run() is a method that starts the development server,
     # allowing you to run and test 
     # your Flask application
   ```
