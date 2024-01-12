@@ -26,3 +26,5 @@ In these projects we will go through some cool features of Data Science. Like,
 2) Data Cleaning Process.
 3) Feature Engineering.
 4) Creating JSON File.
+5) Python Flask
+6) HTTP GET and HTTP POST
