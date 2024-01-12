@@ -29,3 +29,8 @@ It provied essential components for web development, routing, requests made by t
     # allowing you to run and test 
     # your Flask application
   ```
+# Features:
+1. HTTP POST:
+   - HTTP POST is a request method that allows an HTTP client to send data to a server. It's         often used when submitting forms or uploading files and images to a server.
+2. HTTP GET:
+   - GET is used to request data from a specified resource.
