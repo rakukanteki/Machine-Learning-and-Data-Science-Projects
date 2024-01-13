@@ -6,7 +6,7 @@ This repository contains simple Machine Learning and Data Science Projects.
 - Pandas for Data Cleaning.
 - MatPlotlib for data visualisation.
 - Python Flask for Backend server.
-- HTML, CSS, JS for UI.
+- HTML, CSS for UI and JS for communicating with server.
 - Kaggle for Datasets
 - Supervised Machine Learning.
 
