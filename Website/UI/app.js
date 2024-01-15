@@ -50,7 +50,6 @@ function onClickedEstimatePrice()
     });
 }
   
-
 // Loading the locations in HTML <option> part.
 function onPageLoad() {
     console.log( "document loaded" );
