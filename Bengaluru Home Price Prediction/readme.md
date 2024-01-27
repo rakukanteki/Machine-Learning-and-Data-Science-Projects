@@ -73,13 +73,34 @@
    ```
 
 # Technical architecture:
-- When we click on a button in our website. For example, 'predict price' then app.js file will make a call to the NGINX. We will use reverse proxy setup in NGINX to route all our requests to Python Flask  Server, and it will predict the price from saved and trained ML model.
+   - When we click on a button in our website. For example, 'predict price' then app.js file       will make a call to the NGINX. We will use reverse proxy setup in NGINX to route all our       requests to Python Flask  Server, and it will predict the price from saved and trained ML       model.
 
-- Here,
-root is the path from which the website is to be renderes. Location of my prediction website is set as root, from which the html files will be rendered.
-```
-location / {
+   - Here,
+   root is the path from which the website is to be rendered. The location of my prediction        website    is set as root, from which the html files will be rendered.
+   ```
+   location / {
             root   "C:\Users\radwa\OneDrive\Desktop\Py\Home Price Website\Interface";
             index  index.html index.htm app.html;
         }
-```
+   ```
+   But that will only work .html file but not our app.js because, in app.js,
+   ```
+   var url = "http://127.0.0.1:5000/predict_home_price";
+   var url = "http://127.0.0.1:5000/get_location_names"
+   ```
+   which only works for a specific port. We can make it dynamic like,
+   ```
+   var url = "/api/predict_home_price";
+   var url = "/api/get_location_names";
+   ```
+   To make it dynamic, we configure reverse proxy in nginx. In our nginx.conf file,
+   ```
+   location /api/ {
+		rewrite ^/api(.*) $1 break;
+		proxy_pass http://127.0.0.1:5000;
+	}
+   ```
+   It means, when we call using /api/ then it routes the http request to :5000 port.
+   
+
+
