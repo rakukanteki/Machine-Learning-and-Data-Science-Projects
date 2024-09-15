@@ -38,4 +38,11 @@ uvicorn main:app --reload --host 0.0.0.0
 
 ## Using FastAPI and TF Serve
 
-
+# Docker:
+## Things to look after:
+1. Check WSL installed or not. If not then install
+```
+wsl --install
+```
+2. Enable WSL from the Control Panel.
+3. Check if virtualization is enabled or not.
